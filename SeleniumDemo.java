@@ -34,6 +34,8 @@ public class SeleniumDemo {
 		Thread.sleep(3000);
 		System.out.println(resl);
 		
+
+system.out.println("RepoTest");
 		
 		//Now click on Home menu link & verify the page
 		driver.findElement(By.xpath("//a[text()='Home']")).click();
